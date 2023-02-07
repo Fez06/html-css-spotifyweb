@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* @@@
@@ -22,7 +23,11 @@ button {
 }
 
 .font-gray {
-    color: lightgray;
+    color: gray;
+}
+
+ul {
+    list-style: none;
 }
 /* @@@
       @@@HEADER
@@ -47,12 +52,85 @@ header {
     top: 0;
     width: calc(100% - 230px);
 }
+
+/* @@@
+      @@@NAV
+@@@ */  
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 230px;
+    background-color: black;
+    height: calc(100% - 90px);
+}
+
+.nav-container {
+    padding: 0 20px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.nav-container .logo {
+    height: 90px;
+    padding: 20px 0 0 20px;
+}
+
+.nav-container .logo img {
+    width: 130px;
+}
+
+.nav-container li img {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.nav-user .font-gray img {
+    width: 10px;
+}
+
+.nav-user .font-white img {
+    width: 30px;
+    height: 30px;
+    background-color: #808080;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.nav-user {
+   position: absolute;
+   bottom: 5px;
+   
+}
 /* @@@
       @@@MAIN
 @@@ */  
 
+main {
+    padding: 90px 0 90px 230px;
+    background-color: #141922;
+    /* debug */
+    height: 10000px;
+}
 
 /* @@@
       @@@FOOTER
 @@@ */  
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #282828;
+}
+
+.footer-container {
+    
+}
