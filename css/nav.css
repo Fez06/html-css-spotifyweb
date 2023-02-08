@@ -1,0 +1,66 @@
+nav {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    background-color: black;
+    /* height: calc(100% - 90px); */
+    padding: 0 20px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    /* position: relative; */
+}
+
+/* .nav-container {
+    padding: 0 20px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    position: relative;
+} */
+
+nav .logo {
+    height: 90px;
+    padding: 20px 0 0 0;
+}
+
+nav .logo img {
+    width: 130px;
+}
+
+nav li img {
+    height: 25px;
+    vertical-align: middle;
+}
+
+.nav-user .font-gray img {
+    width: 10px;
+}
+
+.nav-user .font-white img {
+    width: 30px;
+    height: 30px;
+    background-color: #808080;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.installa {
+    border-bottom: 1px solid lightgray;
+}
+
+.nav-user {
+   /* position: absolute;
+   bottom: 0;
+   width: calc(100% - 40px);
+   background-color: black;
+   padding-bottom: 5px; */
+   margin-top: auto;
+}
+
+.nav-playlist {
+    overflow: auto;
+}
