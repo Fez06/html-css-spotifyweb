@@ -60,7 +60,6 @@ nav {
     /* position: fixed;
     top: 0;
     left: 0; */
-    width: 230px;
     background-color: black;
     height: calc(100% - 90px);
 }
@@ -70,7 +69,7 @@ nav {
     line-height: 40px;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    width: 230px;
     /* position: relative; */
 }
 
@@ -123,6 +122,9 @@ nav {
 @@@ */  
 .second-body {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 main {
@@ -143,10 +145,9 @@ footer {
     bottom: 0;
     right: 0; */
     height: 90px;
-    width: 100%;
     background-color: #282828;
 }
 
 .footer-container {
-    
+    color: white;
 }
