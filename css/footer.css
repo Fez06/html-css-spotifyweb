@@ -15,13 +15,110 @@ footer {
 
 .player-row {
     display: flex;
+    height: 100%;
+    justify-content: space-between;
 }
 
 .player-row > div {
-    width: calc(100% / 3);
+    /* width: calc(100% / 3); */
     display: flex;
+    height: 100%;
+}
+/* ----colonna sinistra-----  */
+.col-sx {
+    width: 30%;
 }
 
 .col-sx .cover img {
     max-width: 40px;
+    max-height: 40px;
+}
+
+.cover {
+    padding: 0 10px;
+}
+
+.player-row .col-sx {
+    align-items: center;
+}
+
+.player-row .col-sx .band-brano {
+    padding-right: 30px;
+    font-size: 11px;
+}
+
+.band-brano .band {
+    font-weight: bolder;
+}
+
+/* ------colonna centrale------ */
+.col-mid {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.comandi {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.comandi i:not(.fa-circle-play) {
+    font-size: 15px;
+}
+
+.fa-circle-play {
+    font-size: 30px;
+    padding: 0 10px;
+}
+
+.tempo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.durata {
+    width: 100%;
+    height: 5px;
+    background-color: #5a5a5a;
+    margin: 0 10px;
+    border-radius: 25px;
+}
+
+.tempo span {
+    font-size: 10px;
+}
+
+.pieno-20 {
+    width: 20%;
+    height: 100%;
+    background-color: #c1c1c1;
+    border-radius: 25px;
+}
+
+/* ------colonna destra------ */
+
+.col-rx {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.col-rx i {
+    padding-left: 15px;
+}
+
+.volume {
+    width: 100px;
+    height: 5px;
+    background-color: #5a5a5a;
+    margin: 0 10px;
+    border-radius: 25px;
 }
