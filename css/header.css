@@ -1,0 +1,23 @@
+/* @@@
+      @@@HEADER
+@@@ */  
+.opaco {
+    width: 100%;
+    padding: 20px 15px 0 0;
+    text-align: right;
+}
+
+.opaco button {
+    padding: 15px 40px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+}
+
+header {
+    background-color: rgba(8, 11, 18, 0.5);
+    height: 90px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: calc(100% - 230px);
+}
