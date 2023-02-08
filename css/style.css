@@ -70,14 +70,14 @@ nav {
     /* position: relative; */
 }
 
-.nav-container {
+/* .nav-container {
     padding: 0 20px;
     line-height: 40px;
     display: flex;
     flex-direction: column;
     width: 230px;
-    /* position: relative; */
-}
+    position: relative;
+} */
 
 nav .logo {
     height: 90px;
@@ -150,9 +150,5 @@ footer {
     right: 0; */
     height: 90px;
     background-color: #282828;
-
-}
-
-.footer-container {
     color: white;
 }
