@@ -20,14 +20,11 @@ footer {
 }
 
 .player-row > div {
-    /* width: calc(100% / 3); */
+    width: calc(100% / 3);
     display: flex;
     height: 100%;
 }
 /* ----colonna sinistra-----  */
-.col-sx {
-    width: 30%;
-}
 
 .col-sx .cover img {
     max-width: 40px;
@@ -51,11 +48,14 @@ footer {
     font-weight: bolder;
 }
 
+.funzioni {
+    padding-right: 40px;
+}
+
 /* ------colonna centrale------ */
 .col-mid {
     display: flex;
     flex-direction: column;
-    width: 30%;
     justify-content: space-around;
     align-items: center;
 }
@@ -108,7 +108,7 @@ footer {
 .col-rx {
     display: flex;
     align-items: center;
-    width: 30%;
+    justify-content: flex-end;
 }
 
 .col-rx i {
@@ -121,4 +121,16 @@ footer {
     background-color: #5a5a5a;
     margin: 0 10px;
     border-radius: 25px;
+}
+
+/* ------MEDIA QUERIES ------  */
+
+@media screen and (max-width: 552px) {
+    .col-rx i {
+        padding-left: 10px;
+    }
+
+    .player-row .col-sx .band-brano {
+        padding-right: 25px;
+    }
 }
