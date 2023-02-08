@@ -1,0 +1,14 @@
+/* @@@
+      @@@FOOTER
+@@@ */  
+
+footer {
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0; */
+    height: 90px;
+    background-color: #282828;
+    color: white;
+    width: 100vw;
+}
