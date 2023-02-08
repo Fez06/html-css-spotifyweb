@@ -63,10 +63,10 @@ footer {
 .comandi {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 95%;
     height: 50%;
-    text-align: center;
-    justify-content: space-between;
+    gap: 0 20px;
 }
 
 .comandi i:not(.fa-circle-play) {
@@ -134,5 +134,12 @@ footer {
 
     .player-row .col-sx .band-brano {
         padding-right: 25px;
+    }
+}
+
+@media screen and (min-width: 878px) {
+    .funzioni {
+        display: flex;
+        gap: 15px;
     }
 }
