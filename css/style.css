@@ -61,7 +61,13 @@ nav {
     top: 0;
     left: 0; */
     background-color: black;
-    height: calc(100% - 90px);
+    /* height: calc(100% - 90px); */
+    padding: 0 20px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    /* position: relative; */
 }
 
 .nav-container {
@@ -73,16 +79,16 @@ nav {
     /* position: relative; */
 }
 
-.nav-container .logo {
+nav .logo {
     height: 90px;
     padding: 20px 0 0 0;
 }
 
-.nav-container .logo img {
+nav .logo img {
     width: 130px;
 }
 
-.nav-container li img {
+nav li img {
     height: 25px;
     vertical-align: middle;
 }
@@ -122,10 +128,11 @@ nav {
 @@@ */  
 .second-body {
     display: flex;
+    flex-wrap: wrap;
 }
 
 main {
-    padding: 90px 0 90px 230px;
+    /* padding: 90px 0 90px 230px; */
     background-color: #141922;
     height: calc(100vh - 90px);
     /* debug */
@@ -143,6 +150,7 @@ footer {
     right: 0; */
     height: 90px;
     background-color: #282828;
+
 }
 
 .footer-container {
