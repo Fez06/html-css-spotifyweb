@@ -12,3 +12,16 @@ footer {
     color: white;
     width: 100vw;
 }
+
+.player-row {
+    display: flex;
+}
+
+.player-row > div {
+    width: calc(100% / 3);
+    display: flex;
+}
+
+.col-sx .cover img {
+    max-width: 40px;
+}
