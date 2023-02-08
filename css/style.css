@@ -57,9 +57,9 @@ header {
       @@@NAV
 @@@ */  
 nav {
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 230px;
     background-color: black;
     height: calc(100% - 90px);
@@ -101,8 +101,8 @@ nav {
     margin-right: 5px;
 }
 
-.nav-playlist {
-    overflow: auto;
+.installa {
+    border-bottom: 1px solid lightgray;
 }
 
 .nav-user {
@@ -113,15 +113,24 @@ nav {
    padding-bottom: 5px; */
    margin-top: auto;
 }
+
+.nav-playlist {
+    overflow: auto;
+}
+
 /* @@@
       @@@MAIN
 @@@ */  
+.second-body {
+    display: flex;
+}
 
 main {
     padding: 90px 0 90px 230px;
     background-color: #141922;
+    height: calc(100vh - 90px);
     /* debug */
-    height: 10000px;
+    width: calc(100vw - 230px);
 }
 
 /* @@@
@@ -129,10 +138,10 @@ main {
 @@@ */  
 
 footer {
-    position: fixed;
+    /* position: fixed;
     left: 0;
     bottom: 0;
-    right: 0;
+    right: 0; */
     height: 90px;
     width: 100%;
     background-color: #282828;
