@@ -1,3 +1,7 @@
+/* @@@
+      @@@NAV
+@@@ */ 
+
 nav {
     /* position: fixed;
     top: 0;
@@ -36,7 +40,7 @@ nav li img {
 }
 
 .nav-user .font-gray img {
-    width: 10px;
+    width: 15px;
 }
 
 .nav-user .font-white img {
@@ -48,8 +52,12 @@ nav li img {
     margin-right: 5px;
 }
 
-.installa {
+.installa li:first-child {
     border-bottom: 1px solid lightgray;
+}
+
+.user-pic {
+    padding-top: 10px;
 }
 
 .nav-user {
@@ -59,8 +67,47 @@ nav li img {
    background-color: black;
    padding-bottom: 5px; */
    margin-top: auto;
+   padding-bottom: 10px;
 }
 
 .nav-playlist {
     overflow: auto;
+}
+
+nav .xs {
+    width: 30px;
+    display: none;
+}
+/* @@@
+      @@@MEDIA QUERIES 552px
+@@@ */ 
+
+@media screen and (max-width: 552px) {
+    nav { 
+        width: 50px;
+        align-items: center;
+    }
+
+    nav .xs {
+        max-width: 30px;
+        display: block;
+    }
+
+    nav .small {
+        display: none;
+    }
+
+    nav .nav-playlist {
+        display: none;
+    }
+
+    .nav-user ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-user .font-white img {
+        margin-right: 0;
+    }
 }

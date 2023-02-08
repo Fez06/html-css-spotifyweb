@@ -25,16 +25,24 @@
         <nav>
             <!-- <div class="nav-container"> -->
                 <div class="logo">
-                    <img src="img/logo.svg" alt="Spotify">
+                    <img class="small" src="img/logo.svg" alt="Spotify">
+                    <img class="xs" src="img/logo-small.svg" alt="Spotify">
                 </div>
 
                 <div class="nav-home">
                     <ul class="font-gray">
-                        <li class="font-white"><img src="img/home.svg">
-                            Home
+                        <li class="font-white">
+                            <img src="img/home.svg">
+                            <span class="small">Home</span>
                         </li>
-                        <li><img src="img/search.svg">Cerca</li>
-                        <li><img src="img/libreria.svg"> La tua libreria</li>
+                        <li>
+                            <img src="img/search.svg">
+                            <span class="small">Cerca</span>
+                        </li>
+                        <li>
+                            <img src="img/libreria.svg">
+                            <span class="small">La tua libreria</span>
+                        </li>
                     </ul>
                 </div>
 
@@ -53,13 +61,18 @@
                 </div>
 
                 <div class="nav-user">
-                    <div class="font-gray installa">
-                        <img src="img/download.svg"> Installa app
-                    </div>
+                    <ul class="font-gray installa">
+                        <li>
+                            <img src="img/download.svg">
+                            <span class="small">Installa app</span>
+                        </li>
+                    
 
-                    <div class="font-white">
-                        <div><img src="img/profile.svg">John Doe</div>
-                    </div>
+                        <li class="font-white user-pic">
+                            <img src="img/profile.svg">
+                            <span class="small">John Doe</span>
+                        </li>
+                    </ul>
                 </div>
             <!-- </div> -->
         </nav>
