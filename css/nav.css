@@ -82,7 +82,7 @@ nav .xs {
 }
 
 #add {
-    font-size: 20px;
+    font-size: 30px;
     width: 40px;
     height: 40px;
     color: black;
@@ -138,3 +138,24 @@ nav .xs {
     }
 }
 
+/* -----hover-timeeeee----- */
+
+.nav-playlist li:hover{
+    color: white;
+}
+
+.nav-user .installa li:hover {
+    color: white;
+}
+
+.crea-list:hover {
+    color: white;
+}
+
+.nav-home li:hover{
+    color: white;
+}
+
+#add:hover {
+    color: white;
+}

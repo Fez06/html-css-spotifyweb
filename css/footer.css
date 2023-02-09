@@ -149,3 +149,16 @@ footer {
 .player-row .col-mid .fa-circle-play:hover {
     scale: 1.2;
 }
+
+.band-brano .brano:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.funzioni i:hover {
+    color: white;
+}
+
+.tempo:hover + .pieno-20 {
+    background-color: #adff2f;
+}

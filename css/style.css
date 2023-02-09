@@ -181,3 +181,7 @@ main > div img:hover + .overlay, .overlay i {
 .pop-artist .overlay {
     border-radius: 50%;
 }
+
+.consigliati li:hover {
+    color: white;
+}
