@@ -21,3 +21,9 @@ header {
     top: 0;
     width: calc(100% - 230px);
 }
+
+@media screen and (max-width: 552px) {
+    header {
+        width: calc(100% - 50px);
+    }
+}

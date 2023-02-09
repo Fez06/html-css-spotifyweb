@@ -36,7 +36,7 @@ ul {
 } 
 
 .section-under {
-    padding-bottom: 35px;
+    
 }
 /* @@@
       @@@MAIN
@@ -54,9 +54,10 @@ main {
     /* debug */
     height: calc(100vh - 90px);
     color: white;
-    margin-left: auto;
     overflow: auto;
-    
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0;
 }
 
 /* ------sezione consigliati------  */
@@ -75,10 +76,6 @@ main {
     font-size: 16px;
 }
 
-.cover-play {
-        
-}
-
 .cover-play img {
     width: 100%;
 }
@@ -87,6 +84,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding-top: 35px;
 }
 
 .subtitle {
@@ -106,11 +104,33 @@ main {
     width: calc((100% - 10px)/ 2);
 }
 
+/* -----artisti popolari e tondi-----  */
+
+.pop-artist .cover-play img {
+    border-radius: 50%;
+}
+
 /* -----media queries-----  */
 
-@media screen and (max-width: 552px); {
+@media screen and (max-width: 552px) {
     main {
         width: calc(100% - 50px);
-        margin-left: 0;
+        
+    }
+    
+    .consigliati li:first-child {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .rec-play-container li {
+        width: calc((100% - 30px)/ 4);
+    }
+}
+
+@media screen and (min-width: 878px ) {
+    .rec-play-container li {
+        width: calc((100% - 50px)/ 6);
     }
 }

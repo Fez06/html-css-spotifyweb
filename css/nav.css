@@ -137,4 +137,9 @@ nav .xs {
     nav h4, .titolo-bottone {
         display: none;
     }
+
+    .installa li:first-child {
+        border-bottom: 0;
+    }
 }
+
