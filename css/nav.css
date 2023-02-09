@@ -13,6 +13,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 230px;
+    overflow: hidden;
     /* position: relative; */
 }
 
