@@ -143,3 +143,9 @@ footer {
         gap: 15px;
     }
 }
+
+/* -----hover-timeee------ */
+
+.player-row .col-mid .fa-circle-play:hover {
+    scale: 1.2;
+}
